@@ -1,0 +1,70 @@
+html, body {
+	
+	height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.content {
+	
+	min-height: 100%;
+}
+	
+header {
+
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
+}
+
+.myName, .linkMenu {
+
+    display: inline-block;
+}
+
+.logo {
+
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 20px;
+    width: auto;
+}
+
+.linkMenu {
+
+    width: 49%;
+    text-align: right;
+    color: #777777;
+    font-weight: normal;   
+}
+
+.linkMenu ul li {
+
+    position: relative;
+    display: inline-block;
+    padding-right: 5px;
+    margin-right: 5px;
+    border-right: 1px solid #cccccc;
+}
+
+.footer, .push {
+
+    height: 50px;
+}
+
+.footer {
+    
+    border-top: 8px solid #4aaaa5;
+	height: 50px;
+	background: #42A5F5;
+    color: white;
+    line-height: 50px;
+    padding: 0 20px;
+    text-align: center;
+  }
