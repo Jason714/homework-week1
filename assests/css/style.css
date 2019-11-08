@@ -3,6 +3,11 @@ html, body {
 	height: 100%;
     margin: 0;
 }
+ body {
+
+    background-image: url("beige-tiles.png");
+    background-color: #cccccc;
+ }
 
 .wrapper {
 
@@ -51,6 +56,14 @@ header {
     padding-right: 5px;
     margin-right: 5px;
     border-right: 1px solid #cccccc;
+}
+
+img.about-photo {
+
+	float: left;
+	width: 200px;
+    height: 200px;
+    transform:  rotate(90deg);
 }
 
 .footer, .push {
