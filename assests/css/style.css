@@ -3,29 +3,44 @@ html, body {
 	height: 100%;
     margin: 0;
 }
- body {
 
-    background-image: url("beige-tiles.png");
-    background-color: #cccccc;
- }
+body {
+
+    background-image: url("C:/Users/furea/Desktop/homework-week1/assests/images/circuit.png");
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+  }
+
+h1, h2 {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 20px;
+}
+
+a {
+
+    text-decoration: none;
+}
 
 .wrapper {
 
     min-height: 100%;
     margin-bottom: -50px;
 }
-
-.content {
-	
-	min-height: 100%;
-}
 	
 header {
 
-	font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100%;
     border-bottom: 2px solid #cccccc;
     background-color: #ffffff;
+    text-align: center;
+    
 }
 
 .myName, .linkMenu {
@@ -55,15 +70,84 @@ header {
     display: inline-block;
     padding-right: 5px;
     margin-right: 5px;
-    border-right: 1px solid #cccccc;
+    border-right: 2px solid #cccccc;
 }
 
 img.about-photo {
 
-	float: left;
 	width: 200px;
     height: 200px;
     transform:  rotate(90deg);
+}
+
+.content {
+	
+    width: 960px;
+    margin: 0 auto;
+}
+
+.main {
+
+    display: inline-block;
+    width: 960px;
+	margin: 70px 0;
+	padding: 40px;
+	background-color: #ffffff;
+    border: 2px solid #dddddd;
+}
+
+input[type=text], select {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 12px 20px;
+}
+
+textarea {
+
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+}
+
+button {
+
+    padding: 12px 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.image-port {
+
+    width: 200px;
+    height: 200px;
+}
+
+
+.portfolio-item {
+
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transition: transform .2 ease-out;
+}
+
+.portfolio-item:nth-child(even) {
+
+    margin-left: 25px;
+}
+
+.item-name {
+    
+    position: relative;
+    top: -75px;
+    text-align: center;
+    background-color: #4aaaa5;
+    padding: 1em;
+    color: #ffffff;
+    z-index: 900;
 }
 
 .footer, .push {
