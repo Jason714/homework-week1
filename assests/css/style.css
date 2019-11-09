@@ -150,18 +150,17 @@ button {
     z-index: 900;
 }
 
-.footer, .push {
-
-    height: 50px;
-}
-
 .footer {
     
-    border-top: 8px solid #4aaaa5;
-	height: 50px;
-	background: #42A5F5;
-    color: white;
-    line-height: 50px;
-    padding: 0 20px;
-    text-align: center;
+    position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	font-size: 0.8em;
+	color: #cccccc;
+	background-color: #666666;
+    border-top: 7px solid #4aaaa5;
+    z-index: 1000;
   }
