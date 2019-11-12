@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+  
+/* Global page settings*/
+body {
+    background-image: url("../images/circuit.png");
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 32px;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+    
+/* Header (logo[My Name] and links menu */
+header {
+    border-bottom: 2px solid #cccccc;
+    text-align: center; 
+    background-color: #ffffff;   
+}
+
+.myName, .linkMenu {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.logo {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 20px;
+    width: auto;
+}
+
+.linkMenu {
+    width: 54%;
+    text-align: right;  
+
+}
+
+a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 2px solid #cccccc;
+}
+
+/* Main container */
+.wrapper {
+    position: relative;
+    top: 50px;
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.container {	
+    width: 960px;
+    padding: 20px;
+}
+
+/* About me*/
+img.about-photo {
+    float: left;
+	width: 200px;
+    height: 200px;
+    transform:  rotate(90deg);
+    padding-top: 20px;
+}
+
+/* Contact page*/
+input[type=text], select {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 25px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+/*Portfolio page*/
+h3 {
+    position: relative;
+    top: -60px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    z-index: 2;
+    width: 200px;
+}
+img.photo {
+    width: 200px;
+    height: 200px;
+}
+
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Footer*/
+.footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    background-color: #777777;
+    border-top: 8px solid #4aaaa5; 
+    bottom: 0; 
+  }
