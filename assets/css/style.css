@@ -27,8 +27,13 @@ h2 {
     margin-bottom: 20px;
     font-size: 30px;
 }
+
+.pageContent {
+    margin-top: 50px;
+    position: relative;
+}
     
-/* Header (logo[My Name] and links menu */
+/* Header logo[My Name] and links menu */
 .Header {
     border-bottom: 2px solid #cccccc;
     background-color: #ffffff;  
@@ -76,6 +81,7 @@ a:last-child {
     margin: 0 auto;
     padding: 20px;
     overflow: hidden;
+    margin-top: 30px;
 }
 
 /* About me*/
@@ -109,7 +115,6 @@ button {
 }
 
 /*Portfolio page*/
-
 .portfolioImg {
     position: relative;
     float: left;
